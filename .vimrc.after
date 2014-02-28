@@ -1,0 +1,8 @@
+colorscheme molokai 
+
+GitGutterEnable
+set columns=79
+" autocmd BufWritePost *.py call Flake8()
+" highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+" match OverLength /\%81v.\+/
+set t_Co=256
