@@ -1,0 +1,64 @@
+windows:
+  - name: "JOURNAL"
+    layout: tiled
+    root: "~/diary/"
+    panes:
+      [panes list]
+
+  - name: "JAF"
+    layout: tiled
+    root: "~/projects/5q/joniandfriends_org/"
+    panes:
+      [panes list]
+
+  - name: "TMC"
+    layout: tiled
+    root: "~/projects/5q/moodychurch_org"
+    panes:
+      [panes list]
+
+  - name: "MCM"
+    layout: tiled
+    root: "~/projects/5q/moodymedia_org"
+    panes:
+      [panes list]
+
+  - name: "FOI"
+    layout: tiled
+    root: "~/projects/5q/foi_org"
+    panes:
+      [panes list]
+
+  - name: "LM"
+    layout: tiled
+    root: "~/projects/5q/ligonier"
+    panes:
+      [panes list]
+
+  - name: "FRC"
+    root: "~/projects/5q/frcblog_com/"
+    panes:
+      - cmd: "pwd"
+      - cmd: ". venv/bin/activate.fish; python manage.py runserver_plus 5003" 
+        height: 15
+
+  - name: "NICS"
+    root: "~/projects/5q/new_nics_org/"
+    panes:
+      - cmd: "pwd"
+      - cmd: ". venv/bin/activate.fish; python manage.py runserver_plus 5002" 
+        height: 15
+
+  - name: "FIZZ"
+    root: "~/projects/fizzmint/"
+    panes:
+      - cmd: "pwd"
+      - cmd: ". venv/bin/activate.fish; python fizzmint/manage.py runserver_plus 5000"
+        height: 15
+
+  - name: "HIST"
+    root: "~/projects/findhistory/"
+    panes:
+      - cmd: "pwd"
+      - cmd: ". venv/bin/activate.fish; python manage.py runserver_plus 5001"
+        height: 15
