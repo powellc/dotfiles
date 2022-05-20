@@ -35,13 +35,6 @@ windows:
     panes:
       [panes list]
 
-  - name: "FRC"
-    root: "~/projects/5q/frcblog_com/"
-    panes:
-      - cmd: "pwd"
-      - cmd: ". venv/bin/activate.fish; python manage.py runserver_plus 5003" 
-        height: 15
-
   - name: "NICS"
     root: "~/projects/5q/new_nics_org/"
     panes:
